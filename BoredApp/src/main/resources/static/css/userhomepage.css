@@ -1,0 +1,65 @@
+.mainContainer{
+  padding:10px;
+}
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    margin-top:50px;
+  }
+
+.centered {
+    padding: 30px;
+    float:right;
+    margin-right: auto;
+    text-align: -webkit-center;
+  }
+
+.left{
+  left:0;
+}
+
+td a {
+  display:block;
+  width:100%;
+}
+
+.hash-list {
+  display: block;
+  padding: 0;
+  margin: 0 auto;
+  text-align: -webkit-center;
+}
+
+.hash-list > li {
+  display: block;
+  float: left;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+li:nth-child(-n+2){
+  display: block;
+}
+
+
+.dataTables_wrapper{
+  width: 50%;
+  float: left;
+  clear: none;
+}
+
+#activity{
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+
+  
+  
+  
